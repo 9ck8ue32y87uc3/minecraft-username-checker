@@ -4,12 +4,6 @@ import chalk from "chalk";
 
 const API_URL = "https://api.mojang.com/users/profiles/minecraft/";
 
-/**
- * Check if a Minecraft username is taken
- * @param {string} username
- * @returns {Promise<boolean>} true = taken, false = available
- */
-
 async function checkUsername(username) {
   try {
     const res = await fetch(API_URL + username, { timeout: 5000 });
