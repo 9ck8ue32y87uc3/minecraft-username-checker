@@ -1,12 +1,11 @@
 # ⛏️ Minecraft Username Checker
 
-A lightweight tool to check the availability of **Minecraft usernames**.  
-Useful for grabbing a name you like or just testing out ideas.
+A simple tool to check the availability of Minecraft usernames.  
+It reads a list of usernames from `usernames.txt` and outputs the results in `output.txt`.
 
 ---
 
 ## 🚀 Features
-- Check if a username is **available** or already taken.  
-- Supports **single usernames** or **bulk checking**.  
-- Fast and straightforward.  
-- Clear results in the console or output file. 
+- Check multiple usernames at once from a text file.
+- Save results in a clear, easy-to-read output file.
+- Fast and simple Node.js script using async requests.
